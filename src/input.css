@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  h1 {
+    @apply text-5xl font-black text-white;
+  }
+  h2 {
+    @apply text-4xl font-medium text-black;
+  }
+  h3 {
+    @apply text-2xl font-medium text-white;
+  }
+  h4 {
+    @apply text-2xl font-normal text-gray-500;
+  }
+  h5 {
+    @apply text-2xl font-light text-gray-500;
+  }
+  h6 {
+    @apply text-sm font-light text-red-600;
+  }
+  p {
+    @apply text-xl font-normal text-white;
+  }
+}
+@layer components {
+  .btn-white {
+    @apply bg-white w-48 h-14 rounded-md text-black text-3xl font-normal transition-all duration-300  border-2 hover:border-black;
+  }
+  .btn-purple {
+    @apply bg-purple-600 w-48 h-14 rounded-md text-white text-3xl font-normal transition-all duration-300 ease-in-out border-2 border-purple-600 hover:bg-white hover:text-purple-600;
+  }
+  .field {
+    @apply border-2 border-solid rounded-md border-black w-full h-12 focus:border-purple-600 text-2xl font-normal pl-2;
+  }
+}

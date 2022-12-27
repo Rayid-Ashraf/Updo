@@ -1,0 +1,93 @@
+<!doctype html>
+<html class="overflow-x-hidden w-full h-full ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <script src="../dist/main.js" type="module"></script>
+    <title>Download | Updo</title>
+</head>
+
+<body>
+    <div
+        class="bg-blue-600 pt-5 px-2 pb-2 sm:px-20 lg:px-10 lg:pt-8 xl:px-28 max-w-[1600px] m-auto xl:h-screen xl:flex xl:justify-between xl:flex-col">
+        <header class="flex justify-between items-center mb-12 gap-3">
+            <a href="../index.html">
+                <div><img class="w-auto" src="../assets/logo.svg" alt=""></div>
+            </a>
+            <a href="../index.html">
+                <button class="btn-white flex items-center justify-center gap-1 text-3xl ">Upload <img class="w-auto"
+                        src="../assets/Uninstalling Updates.svg" alt=""></button>
+            </a>
+
+        </header>
+        <main class="mb-14 flex flex-col gap-10 lg:flex-row lg:items-center lg:gap-12 xl:gap-32 ">
+            <div class="w-full bg-white h-[400px] rounded-xl p-6 lg:w-2/5">
+                <div id="form" class="flex-col justify-between w-full h-full flex">
+                    <h2>Enter the name and key of the file </h2>
+                    <form class="flex flex-col">
+                        <label for="name">Name</label>
+                        <input name="name" id="download-name" class="field" type="text">
+                        <h6 id="download-name-msg" class="hidden">The name or key is invalid</h6>
+                        <label for="key" class="mt-3">Key</label>
+                        <input name="key" id="download-key" class="field" type="password">
+                        <h6 id="download-key-msg" class="hidden">The name or key is invalid</h6>
+                    </form>
+                    <button id="download-btn" class="btn-purple">Downlaod</button>
+                </div>
+            </div>
+            <div class="lg:w-3/5">
+                <h1 class="mb-5">Access your files from anywhere</h1>
+                <p>Updo allows you to upload files to the cloud by giving them a name and a key. Then you can easily
+                    download that particular file from any device by opening the browser and entering the file's name
+                    and key</p>
+                <div class="flex flex-col gap-3 mt-7">
+                    <h3 class="flex items-center"><img class="mr-1" src="../assets/Stack.svg" alt="">Upload up to 1 GB
+                        of
+                        files</h3>
+                    <h3 class="flex items-center"><img class="mr-1" src="../assets/Facial Recognition.svg" alt="">No
+                        need
+                        to
+                        do any
+                        authentication</h3>
+                    <h3 class="flex items-center"><img class="mr-1" src="../assets/Tools.svg" alt="">No need to install
+                        any
+                        software</h3>
+                </div>
+            </div>
+        </main>
+        <footer class="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3">
+            <div class="text-center">
+                <p>Designed and developed by <span class="font-normal">Rayid</span></p>
+                <p>© 2022 Updo. All rights reserved.</p>
+            </div>
+            <div class="flex justify-center gap-4">
+                <a href="http://rayid.netlify.app" target="_blank"> <img src="../assets/Web.svg" alt=""></a>
+                <a href="https://twitter.com/Ray__Id" target="_blank"> <img src="../assets/Twitter Circled.svg"
+                        alt=""></a>
+                <a href="https://github.com/Rayid-Ashraf" target="_blank"> <img src="../assets/GitHub.svg" alt=""></a>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+</body>
+
+</html>
